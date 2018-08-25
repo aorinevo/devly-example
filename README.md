@@ -90,7 +90,7 @@ Finally, run `npm install -g` from the project's root directory.
 
 ## Devly Plugins and Utilities
 
-All Devly plugins and utilities are publised to npm under the `@devly` scope.  For a full list, see visit https://github.com/devlyjs.
+All Devly plugins and utilities are publised to npm under the `@devly` scope.  For a full list, visit https://github.com/devlyjs.
 
 Here is a partial list:
  - [@devly/devly-apache](https://github.com/devlyjs/devly-apache)
