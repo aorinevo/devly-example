@@ -65,7 +65,6 @@ dispatch(addApacheCommands());
 Update your `package.json` to include a bin object.  
 
 ```js
-//package.json
 {
   ...,
   "bin": {
@@ -78,8 +77,6 @@ Update your `package.json` to include a bin object.
 Make sure the `index.js` file includes the hashbang at the top of the file and requires the plugins and cli barrel files (i.e. `./plugins/index.js` and `./cli/index.js`).
 
 ```js
-// index.js
-
 #!/usr/bin/env node
 
 require('./plugins');
