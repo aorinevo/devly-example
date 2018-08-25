@@ -1,6 +1,6 @@
 # Introduction
 
-As micro-services architecture grows, so does the need for a clear, coherent, and easy way to manage the different set-up processes of the micro-services echo-system.  
+As micro-services architecture grows, so does the need for a clear, coherent, and easy way to manage the different set-up processes of the micro-services eco-system.  
 
 ## Existing Solutions
 
