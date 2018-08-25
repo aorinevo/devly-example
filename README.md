@@ -10,7 +10,7 @@ Two existing solutions to the problem involve containers and virtual machines.  
 
 Devly is neither a containerization nor a virtual machine ecosystem.  It is a command line utility made up of compose-able plugins built on node and npm.  Each plugin abstracts out the low-level details of an application's set-up process and rolls it into a cli command.
 
-With Devly, developers can leverage the power of their host machine an avoid the complexities of mounting files and folders into guest operating systems.
+With Devly, developers can leverage the power of their host machine and avoid the complexities of mounting files and folders into guest operating systems.
 
 ## Integrating Your First App Into Devly
 
