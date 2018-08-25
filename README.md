@@ -8,7 +8,7 @@ Two existing solutions to the problem involve containers and virtual machines.  
 
 ## Devly Solution
 
-Devly is neither a containerization nor a virtual machine ecosystem.  It is command line utility made up of compose-able plugins built in node and npm.  Each plugin abstracts out the low-level details of an applications set-up process and rolls it into a cli command.
+Devly is neither a containerization nor a virtual machine ecosystem.  It is a command line utility made up of compose-able plugins built in node and npm.  Each plugin abstracts out the low-level details of an applications set-up process and rolls it into a cli command.
 
 With Devly, developers can leverage the power of their host machine an avoid the complexities of mounting files and folders into guest operating systems.
 
