@@ -4,7 +4,7 @@ As micro-services architecture grows, so does the need for a clear, coherent, an
 
 ## Existing Solutions
 
-Two existing solutions to the problem involve containers and virtual machines.  For a comparison of the two, checkout Pete Brey's article: https://blog.netapp.com/blogs/containers-vs-vms/
+Two existing solutions to the problem involve containers and virtual machines.  For a comparison between the two, checkout Pete Brey's article: https://blog.netapp.com/blogs/containers-vs-vms/
 
 ## Devly Solution
 
