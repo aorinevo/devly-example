@@ -1,10 +1,10 @@
 # Introduction
 
-As micro-services architecture grows, so does the need for a clear, coherent, and easy way to manage the different set-up processes of the micro-services eco-system.  
+As a micro-services application grows, so does the need for a clear, coherent, and easy way to manage the set-up processes of the components that make up the application.
 
 ## Existing Solutions
 
-Two existing solutions to the problem involve containers and virtual machines.  For a comparison between the two, checkout Pete Brey's article: https://blog.netapp.com/blogs/containers-vs-vms/
+Two existing solutions to this problem involve containers and virtual machines.  For a comparison between the two, checkout Pete Brey's article: https://blog.netapp.com/blogs/containers-vs-vms/
 
 ## Devly Solution
 
@@ -43,11 +43,13 @@ Create a separate repo for your app set-up cli tool.
 
 #### `manifests` directory
 
-Manifest files export a javascript object that contains the information the corresponding plugin needs to run.
+Manifest files export a javascript object that serves as the initial state for the corresponding plugin.
 
 #### `plugins` directory
 
-Plugins directory will generally pull in the plugin's manifest file and dispatch an action to the devly-store.  *Make sure to install your plugin as a dependency first.*
+The plugins directory consists of files that compose the manifest with the corresponding action creator which then gets dispatched to the devly store. *Note* it is recommened to use a barrel file to manage all of your apps plugins. 
+
+*Make sure to install your plugin as a dependency first.*
 
 ```js
 const {store} = require('@devly/devly-store');
@@ -74,7 +76,7 @@ Update your `package.json` to include a bin object.
 }
 ```
 
-Make sure the `index.js` file includes the hashbang at the top of the file and requires the plugins and cli barrel files (i.e. `./plugins/index.js` and `./cli/index.js`).
+Make sure `./index.js` includes the hashbang at the top of the file; and requires `./plugins` and `./cli` barrels.
 
 ```js
 #!/usr/bin/env node
@@ -87,7 +89,7 @@ Finally, run `npm install -g` from the project's root directory.
 
 ## Devly Plugins and Utilities
 
-All Devly plugins and utilities are publised to npm under the `@devly` scope.  For a full list, visit https://github.com/devlyjs.
+All Devly plugins and utilities are published to npm under the `@devly` scope.  For a full list, visit https://github.com/devlyjs.
 
 Here is a partial list:
  - [@devly/devly-apache](https://github.com/devlyjs/devly-apache)
