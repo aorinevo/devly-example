@@ -95,3 +95,4 @@ Here is a partial list:
  - [@devly/devly-apache](https://github.com/devlyjs/devly-apache)
  - [@devly/devly-cli](https://github.com/devlyjs/devly-cli)
  - [@devly/devly-store](https://github.com/devlyjs/devly-store)
+ - [@devly/devly-shell](https://github.com/devlyjs/devly-shell)
