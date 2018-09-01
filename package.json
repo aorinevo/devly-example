@@ -12,10 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@devly/devly-apache": "^2.2.0",
+    "@devly/devly-apache": "^2.2.1",
     "@devly/devly-cli": "^2.0.0",
     "@devly/devly-hosts": "^2.4.0",
-    "@devly/devly-shell": "^1.3.0",
+    "@devly/devly-shell": "^1.4.0",
     "@devly/devly-store": "^1.3.0",
     "redux": "^4.0.0",
     "shelljs": "^0.8.2",

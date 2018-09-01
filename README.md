@@ -6,9 +6,9 @@ As a micro-services application grows, so does the need for a clear, coherent, a
 
 Two existing solutions to this problem involve containers and virtual machines.  For a comparison between the two, checkout Pete Brey's article: https://blog.netapp.com/blogs/containers-vs-vms/
 
-## Devly Solution
+## The Devly Solution
 
-Devly is neither a containerization nor a virtual machine ecosystem.  It is a command line utility made up of compose-able plugins built on node and npm.  Each plugin abstracts out the low-level details of an application's set-up process and rolls it into a cli command.
+Devly is neither a containerization nor a virtual machine ecosystem.  It is a command line utility made up of composeable plugins built on node and npm.  Each plugin abstracts out the low-level details of an application's set-up process and rolls it into a cli command.
 
 With Devly, developers can leverage the power of their host machine and avoid the complexities of mounting files and folders into guest operating systems.
 
@@ -47,7 +47,7 @@ Manifest files export a javascript object that serves as the initial state for t
 
 #### `plugins` directory
 
-The plugins directory consists of files that compose the manifest with the corresponding action creator which then gets dispatched to the devly store. *Note* it is recommened to use a barrel file to manage all of your apps plugins. 
+The plugins directory consists of files that compose the manifest with the corresponding action creator which then gets dispatched to the devly store. *Note* it is recommened to use a barrel file to manage all of your apps plugins.
 
 *Make sure to install your plugin as a dependency first.*
 

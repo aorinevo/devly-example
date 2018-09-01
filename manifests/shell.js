@@ -15,11 +15,11 @@ module.exports = {
     },
     {
       name: 'M2_OPTS',
-      value: "'$MAVEN_OPTS'"
+      value: '$MAVEN_OPTS'
     },
     {
       name: 'PATH',
-      value: "'$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH'"
+      value: '/usr/local/bin:$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH'
     }
   ],
 };
