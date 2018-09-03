@@ -1,6 +1,6 @@
 # Introduction
 
-As a micro-services application grows, so does the need for a clear, coherent, and easy way to manage the set-up processes of the components that make up the application.
+As a micro-services application grows, so does the need for a clear, coherent, and easy way to manage the set-up processes of all the components that make up the application.
 
 ## Existing Solutions
 
@@ -8,7 +8,7 @@ Two existing solutions to this problem involve containers and virtual machines. 
 
 ## The Devly Solution
 
-Devly is neither a containerization nor a virtual machine ecosystem.  It is a command line utility made up of composeable plugins built on node and npm.  Each plugin abstracts out the low-level details of an application's set-up process and rolls it into a cli command.
+Devly is neither a containerization nor a virtual machine solution.  It is a command line utility made up of composeable plugins built on node and npm.  Each plugin abstracts out the low-level details of an application's set-up process and rolls it into a cli command.
 
 With Devly, developers can leverage the power of their host machine and avoid the complexities of mounting files and folders into guest operating systems.
 
@@ -24,9 +24,9 @@ Create a separate repo for your app set-up cli tool.
 
 ```
 ├── cli
-    ├── to-level-command-1
-    ├── to-level-command-2
-    ├── to-level-command-3
+    ├── top-level-command-1
+    ├── top-level-command-2
+    ├── top-level-command-3
     └── index.js
 ├── manifests
     ├── plugin-1
