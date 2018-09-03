@@ -19,7 +19,7 @@ module.exports = {
     },
     {
       name: 'PATH',
-      value: '/usr/local/bin:$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH'
+      value: '/usr/local/opt/mysql@5.7/bin:/usr/local/bin:$MAVEN_HOME/bin:$JAVA_HOME/bin:$PATH'
     }
   ],
 };

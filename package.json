@@ -1,22 +1,30 @@
 {
   "name": "devly-example",
-  "version": "2.1.0",
+  "version": "2.5.0",
   "description": "",
   "main": "index.js",
   "bin": {
-    "dev-test": "./index.js"
+    "devly": "./index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aorinevo/devly-example"
+  },
+  "author": "Aori Nevo",
   "license": "ISC",
   "dependencies": {
     "@devly/devly-apache": "^2.2.1",
     "@devly/devly-cli": "^2.0.0",
-    "@devly/devly-hosts": "^2.4.0",
+    "@devly/devly-coremetrics": "^1.2.0",
+    "@devly/devly-hosts": "^2.7.0",
     "@devly/devly-shell": "^1.4.0",
     "@devly/devly-store": "^1.3.0",
+    "@devly/devly-wordpress": "^1.5.0",
+    "axios": "^0.18.0",
+    "mysql": "^2.16.0",
     "redux": "^4.0.0",
     "shelljs": "^0.8.2",
     "winston": "^2.4.4"

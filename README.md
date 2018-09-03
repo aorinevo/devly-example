@@ -96,3 +96,4 @@ Here is a partial list:
  - [@devly/devly-cli](https://github.com/devlyjs/devly-cli)
  - [@devly/devly-store](https://github.com/devlyjs/devly-store)
  - [@devly/devly-shell](https://github.com/devlyjs/devly-shell)
+ - [@devly/devly-wordpress](https://github.com/devlyjs/devly-wordpress)
