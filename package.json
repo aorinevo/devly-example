@@ -22,7 +22,7 @@
     "@devly/devly-hosts": "^2.7.0",
     "@devly/devly-shell": "^1.4.0",
     "@devly/devly-store": "^1.3.0",
-    "@devly/devly-wordpress": "^1.6.0",
+    "@devly/devly-wordpress": "^1.7.0",
     "axios": "^0.18.0",
     "mysql": "^2.16.0",
     "redux": "^4.0.0",
