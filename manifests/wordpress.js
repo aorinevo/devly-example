@@ -1,4 +1,4 @@
-const DNS = 'local.wordpress.aorinevo.org';
+const DNS = 'local.wordpress.aorinevo.com';
 const PORT = 8080;
 
 module.exports = {
